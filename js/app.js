@@ -1,9 +1,18 @@
 'use strict';
 let score = 0;
+function namePicked(){ 
+
 
 let username = prompt('What\'s your name?');
 
 alert(`Welcome to my about me page ${username}!!! Let's play my About Me Questionnaire`);
+
+namePicked();
+
+}
+
+function basketBall() { 
+
 
 let aboutQuestionOne = prompt('Is basketball my favorite sport? Answer y/n or yes/no').toLowerCase();
 console.log(aboutQuestionOne);
@@ -16,6 +25,12 @@ if (aboutQuestionOne === 'y' || aboutQuestionOne === 'yes') {
   score++;
 }
 
+}
+
+basketBall();
+
+function hipHop() {
+
 let aboutQuestionTwo = prompt('Is Hip-Hop my favorite type of music?  Answer y/n or yes/no').toLowerCase();
 console.log(aboutQuestionTwo);
 
@@ -26,6 +41,13 @@ if (aboutQuestionTwo === 'y' || aboutQuestionTwo === 'yes') {
 } if (aboutQuestionTwo === 'y' || aboutQuestionTwo === 'yes') {
   score++;
 }
+
+}
+
+hipHop();
+
+function bostonCeltics() { 
+
 
 let aboutQuestionThree = prompt('Is the Boston Celtics my favorite team?').toLowerCase();
 console.log(aboutQuestionThree);
@@ -39,6 +61,16 @@ else if (aboutQuestionThree === 'n' || aboutQuestionThree === 'no') {
   score++;
 }
 
+
+}
+
+bostonCeltics();
+
+
+function baseball(){
+
+
+
 let aboutQuestionFour = prompt('Is baseball my second favorite sport? Answer y/n or yes/no').toLowerCase();
 console.log(aboutQuestionFour);
 
@@ -49,6 +81,14 @@ if (aboutQuestionFour === 'y' || aboutQuestionFour === 'yes') {
 } if (aboutQuestionFour === 'n' || aboutQuestionFour === 'no') {
   score++;
 }
+}
+
+baseball();
+
+
+function Summertime() {
+
+
 
 let aboutQuestionFive = prompt('Do I like summer time? Answer y/n or yes/no').toLowerCase();
 console.log(aboutQuestionFive);
@@ -60,6 +100,14 @@ if (aboutQuestionFive === 'y' || aboutQuestionFive === 'yes') {
 } if (aboutQuestionFive === 'n' || aboutQuestionFive === 'no') {
   score++;
 }
+
+}
+
+Summertime();
+
+function Jordans() {
+
+
 
 let retroJordans = 5;
 console.log(typeof userAnswer);
@@ -81,6 +129,14 @@ for (let i = 4; i > 0; i--)
 
 }
 
+}
+
+Jordans();
+
+function brandShoes() {
+
+
+
 let favBrands = ['nike', 'new balance', 'reebok', 'adidas'];
 
 for(let i = 6; i > 0; i--){
@@ -97,6 +153,10 @@ for(let i = 6; i > 0; i--){
     }
   }
 }
+}
+
+brandShoes();
+
 alert(`Your score was ${score} out of 7`);
 
 
